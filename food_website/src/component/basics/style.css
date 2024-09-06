@@ -15,7 +15,7 @@
 html {
   background: #faf7f2;
   
-  background-image: url('D:/food_menu_website/food_website/public/images/foodie.png');
+  background-image: url('/public/images/foodie.png');
   height: 100vh;
   background-size: cover;
   background-position: static;
