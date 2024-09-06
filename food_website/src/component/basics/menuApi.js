@@ -1,17 +1,17 @@
 const Menu = [
     {
       id: 1,
-      image: "images/maggi.png",
+      image: "../images/maggie.jpeg",
       name: "maggi",
       category: "breakfast",
       price: "12₹",
       description:
-        "I love Maggi realy oo yues  Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in .. ",
     },
   
     {
       id: 2,
-      image: "images/allupakoida.jpg",
+      image: "../images/allu.jpeg",
       name: "allu pakoida",
       category: "evening",
       price: "20₹",
@@ -20,7 +20,7 @@ const Menu = [
     },
     {
       id: 3,
-      image: "images/corn.jpg",
+      image: "../images/corn.jpeg",
       name: "corn",
       category: "breakfast",
       price: "10₹",
@@ -29,7 +29,7 @@ const Menu = [
     },
     {
       id: 4,
-      image: "../images/chola.jpg",
+      image: "../images/chole.jpeg",
       name: "chola",
       category: "lunch",
       price: "50₹",
@@ -38,7 +38,7 @@ const Menu = [
     },
     {
       id: 5,
-      image: "../images/pizza.jpg",
+      image: "../images/pizza.jpeg",
       name: "pizza",
       category: "evening",
       price: "80₹",
@@ -47,7 +47,7 @@ const Menu = [
     },
     {
       id: 6,
-      image: "../images/nonvegthali.jpg",
+      image: "../images/chiken.jpeg",
       name: "Non-Veg Thali",
       category: "dinner",
       price: "180₹",
@@ -56,7 +56,7 @@ const Menu = [
     },
     {
       id: 7,
-      image: "../images/sweet.jpg",
+      image: "../images/sweets.jpeg",
       name: "Sweets",
       category: "dinner",
       price: "60₹",
@@ -65,7 +65,7 @@ const Menu = [
     },
     {
       id: 8,
-      image: "../images/rajmarice.jpg",
+      image: "../images/rajma.jpeg",
       name: "Rajma Rice",
       category: "lunch",
       price: "60₹",
@@ -74,7 +74,7 @@ const Menu = [
     },
     {
       id: 9,
-      image: "../images/samosa.jpg",
+      image: "../images/allu.jpeg",
       name: "samaso",
       category: "evening",
       price: "10₹",
@@ -83,9 +83,27 @@ const Menu = [
     },
     {
       id: 10,
-      image: "../images/samosa.jpg",
+      image: "../images/samosa.jpeg",
       name: "samaso",
-      category: "pritjogani",
+      category: "special dish",
+      price: "10₹",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
+    },
+    {
+      id: 11,
+      image: "../images/vadapow.jpeg",
+      name: "vadapow",
+      category: "chinese",
+      price: "10₹",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
+    },
+    {
+      id: 12,
+      image: "../images/momo.jpeg",
+      name: "momos",
+      category: "chinese",
       price: "10₹",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",

@@ -1,8 +1,16 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 
 const Menucard = ({menuData}) => {
   console.log(menuData)
+  const navigate = useNavigate(); 
+  const handleOrderNow = () => {
+    // Programmatically navigate to the Order Now page
+    navigate('/ordernow');
+  }
+
   return (
+    
    
     <>
     <section className='main-card--cointainer'>
@@ -21,7 +29,7 @@ const Menucard = ({menuData}) => {
 
             </div>
             <img src={image} className="card-media" />
-            <span className="card-tag subtle">order now</span>
+            <button className="card-tag subtle" onClick={handleOrderNow} >order now</button>
         </div>
        </div> </>)
       })
@@ -31,4 +39,4 @@ const Menucard = ({menuData}) => {
   )
 }
 
-export default Menucard
+export default Menucard;

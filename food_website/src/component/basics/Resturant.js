@@ -22,7 +22,7 @@ if(category === "All")
         const updatedlist = Menu.filter((curElem)=>{
            return  curElem.category === category;
         })
-        setMenuData(updatedlist);
+        setMenuData(updatedlist); 
 
     }
     return(<>
