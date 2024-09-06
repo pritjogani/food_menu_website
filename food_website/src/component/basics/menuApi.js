@@ -49,7 +49,7 @@ const Menu = [
       id: 6,
       image: "../images/chiken.jpeg",
       name: "Non-Veg Thali",
-      category: "dinner",
+      category: "all",
       price: "180₹",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
@@ -67,7 +67,7 @@ const Menu = [
       id: 8,
       image: "../images/rajma.jpeg",
       name: "Rajma Rice",
-      category: "lunch",
+      category: "dinner",
       price: "60₹",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
@@ -94,7 +94,7 @@ const Menu = [
       id: 11,
       image: "../images/vadapow.jpeg",
       name: "vadapow",
-      category: "chinese",
+      category: "breakfast",
       price: "10₹",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
