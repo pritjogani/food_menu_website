@@ -49,7 +49,7 @@ const Menu = [
       id: 6,
       image: "../images/chiken.jpeg",
       name: "Non-Veg Thali",
-      category: "all",
+      category: "dinner",
       price: "180₹",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
